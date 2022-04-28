@@ -1,7 +1,9 @@
 AUTHOR = 'Joe Clarke'
 SITENAME = 'Pelican Project Three'
 SITEURL = ''
-
+THEME = 'themes/Flex'
+PLUGIN_PATHS = ['./pelican-plugins']
+PLUGINS = ['sitemap', 'post_stats', 'feed_summary']
 PATH = 'content'
 
 TIMEZONE = 'America/Denver'
